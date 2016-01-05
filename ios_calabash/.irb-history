@@ -1,0 +1,50 @@
+touch("setting[31]")
+setting[31]
+setting[31]['text']
+setting[31].text
+touch("view marked:'#{setting[31]}'")
+setting[31]
+uia_tap_mark "setting[31]"
+uia_tap_mark setting[31]
+assert 1=1
+assert 1 ? 1
+assert 1=1 out
+query(*)
+query('*')
+query("TableViewLabel {text CONTAINS 'ID'}")
+query('UITableViewLabel')
+query("UITableViewLabel {text CONTAINS 'ID'}")
+wait_for_element_exists("UITableViewLabel {text CONTAINS 'ID'}")
+assert ("UITableViewLabel {text CONTAINS 'ID'}")
+assert ("UITableViewLabel {text CONTAINS 'ID'}", timeout: 5)
+wait_for_element_exists("UITableViewLabel {text CONTAINS 'ID'}", timeout= 5)
+wait_for_element_exists("UITableViewLabel {text CONTAINS 'ID'}", timeout: 5)
+wait_for_element_exists("UITableViewLabel {text CONTAINS 'ID'}", timeout: 5)
+uia_tap_mark 'sidebar_menu_button'
+uia_tap_mark sidebar_menu_button
+uia_tap_mark "sidebar_menu_button"
+exit
+start_test_server_in_background
+uia_tap_mark "sidebar_menu_button"
+query("view mared:'sidebar_menu_button'")
+query("*")
+exit
+start_test_server_in_background
+query("view mared:'sidebar_menu_button'")
+query("view marked:'sidebar_menu_button'")
+wait_for_element_exists("KVSideBarHamburgerView", timout=5)
+wait_for_element_exists("KVSideBarHamburgerView", timout:5)
+label("view")
+query("view")
+query("UITableViewLabel {text CONTAINS 'ID'}"
+query("UITableViewLabel {text CONTAINS 'ID'}"
+query("UITableViewLabel}"
+exit
+query("UITableViewLabel}"
+exit
+exit
+start_test_server_in_background
+query("UITableViewLabel {text CONTAINS 'ID'}"
+query("UITableViewLabel")
+exit
+exit
